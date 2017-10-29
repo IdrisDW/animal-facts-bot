@@ -313,6 +313,7 @@ def check_comment_for_animal(comment, reddit):
     botengine('raccoon', '\sraccons?\s', reddit, RACCOON_FACTS, comment)
     botengine('rattlesnake', '\srattlesnakes?\s', reddit, RATTLESNAKE_FACTS, comment)
     botengine('raven', '\sravens?\s', reddit, RAVEN_FACTS, comment)
+    botengine('red panda', '\sred ?pandas?\s', reddit, RED_PANDA_FACTS, comment)
     botengine('salmon', '\ssalmons?\s', reddit, SALMON_FACTS, comment)
     botengine('scorpion', '\sscorpions?\s', reddit, SCORPION_FACTS, comment)
     botengine('seagull', '\sseagulls?\s', reddit, SEAGULL_FACTS, comment)
@@ -1956,7 +1957,22 @@ RAVEN_FACTS = (
     'Common Ravens can mimic the calls of other bird species. When raised in captivity, they can even imitate human words; one Common Raven raised from birth was taught to mimic the word “nevermore.”',
     'The oldest known wild Common Raven was at least 22 years, 7 months old. It was banded and found in Nova Scotia.'
 	)
-
+RED_PANDA_FACTS = (
+	'Red panda can reach 20 to 26 inches in length and 7 to 14 pounds in weight. Its tail can be 12 to 20 inches long. ',
+	'Red panda is also known as "Fire Fox" because of its size and red color of the fur. Upper side of the red panda is red and white in color. Legs and belly are black. This type of coloration provides camouflage in the forest. Red panda is a trademark of Firefox browse',
+	'Red panda spends most of its life in the trees. Red panda moves slowly and carefully on the ground.',
+	'Red panda is an omnivore (eats both plants and animals). It mostly eats bamboo, but it also consumes fruit, roots, eggs and small mammals. ',
+	'Just like giant panda, red panda has additional thumb which is used for grabbing of the bamboo sticks. Red panda has retractable claws (they can be hidden inside the paw).',
+	'Red panda is a solitary creature that gathers with other red pandas only during the mating season.',
+	'Red panda is diurnal (active during the day) animal that is mostly active in the morning and late afternoon.',
+	'Red panda communicates using the body language and different type of sounds. Specific whistle is used to alert others about the upcoming danger.',
+	'Main predators of red panda are: leopard, clouded leopard and wild dogs.',
+	'Mating season of red panda takes place early in the winter. Pregnancy in female lasts three months and ends with one to four cubs.',
+	'Red panda babies are born blind, their ears are closed and body is covered with grey fur',
+	'Young red pandas stay in the nest during the first three months of their life. They will stay with their mother until the next breeding season.',
+	'Red panda can survive 7 to 8 years in the wild and up to 14 years in captivity.'
+	
+)
 SALMON_FACTS = (
 	'Salmon tend to be anadromous, which means they hatch in fresh water, migrate to the ocean, and return to fresh water to reproduce, however this is not always the case.',
 	'The majority of Salmon worldwide is farmed, a process known as aquaculture.',
@@ -2553,6 +2569,7 @@ ALL_FACTS = (
     RACCOON_FACTS,
     RATTLESNAKE_FACTS,
     RAVEN_FACTS,
+	RED_PANDA_FACTS,
   	SALMON_FACTS,
     SCORPION_FACTS,
     SEAGULL_FACTS,
